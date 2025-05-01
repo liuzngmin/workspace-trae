@@ -1,0 +1,18 @@
+# MCP核心配置
+
+server:
+  port: 8080
+  host: 0.0.0.0
+
+services:
+  discovery:
+    enabled: true
+    interval: 30s
+  
+  gateway:
+    enabled: true
+    routes: []
+
+logging:
+  level: info
+  path: ./logs
